@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A2807C81EE4FE6000D86587 /* EmptyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2807C71EE4FE6000D86587 /* EmptyClass.m */; };
 		6ADB66341EDF247F00BC05DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB66331EDF247F00BC05DC /* main.m */; };
 		6ADB66371EDF247F00BC05DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB66361EDF247F00BC05DC /* AppDelegate.m */; };
 		6ADB663A1EDF247F00BC05DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB66391EDF247F00BC05DC /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		6ADB66421EDF247F00BC05DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB66401EDF247F00BC05DC /* LaunchScreen.storyboard */; };
 		6ADB664D1EDF247F00BC05DC /* runtime_test01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB664C1EDF247F00BC05DC /* runtime_test01Tests.m */; };
 		6ADB66581EDF247F00BC05DC /* runtime_test01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB66571EDF247F00BC05DC /* runtime_test01UITests.m */; };
+		6ADB666A1EDF7A0900BC05DC /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB66691EDF7A0900BC05DC /* Father.m */; };
+		6ADB666D1EDF7A3000BC05DC /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB666C1EDF7A3000BC05DC /* Son.m */; };
+		6ADB66B51EE014F800BC05DC /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB66B41EE014F800BC05DC /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A2807C61EE4FE6000D86587 /* EmptyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyClass.h; sourceTree = "<group>"; };
+		6A2807C71EE4FE6000D86587 /* EmptyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyClass.m; sourceTree = "<group>"; };
 		6ADB662F1EDF247F00BC05DC /* runtime_test01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtime_test01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADB66331EDF247F00BC05DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6ADB66351EDF247F00BC05DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		6ADB66531EDF247F00BC05DC /* runtime_test01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtime_test01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADB66571EDF247F00BC05DC /* runtime_test01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtime_test01UITests.m; sourceTree = "<group>"; };
 		6ADB66591EDF247F00BC05DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADB66681EDF7A0900BC05DC /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		6ADB66691EDF7A0900BC05DC /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		6ADB666B1EDF7A3000BC05DC /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		6ADB666C1EDF7A3000BC05DC /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		6ADB66B31EE014F800BC05DC /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		6ADB66B41EE014F800BC05DC /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A2807C51EE4FE4400D86587 /* exchangeMethod */ = {
+			isa = PBXGroup;
+			children = (
+				6A2807C61EE4FE6000D86587 /* EmptyClass.h */,
+				6A2807C71EE4FE6000D86587 /* EmptyClass.m */,
+			);
+			name = exchangeMethod;
+			sourceTree = "<group>";
+		};
 		6ADB66261EDF247F00BC05DC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +122,8 @@
 		6ADB66311EDF247F00BC05DC /* runtime_test01 */ = {
 			isa = PBXGroup;
 			children = (
+				6A2807C51EE4FE4400D86587 /* exchangeMethod */,
+				6ADB66B21EE014BA00BC05DC /* Test1 */,
 				6ADB66351EDF247F00BC05DC /* AppDelegate.h */,
 				6ADB66361EDF247F00BC05DC /* AppDelegate.m */,
 				6ADB66381EDF247F00BC05DC /* ViewController.h */,
@@ -110,6 +133,10 @@
 				6ADB66401EDF247F00BC05DC /* LaunchScreen.storyboard */,
 				6ADB66431EDF247F00BC05DC /* Info.plist */,
 				6ADB66321EDF247F00BC05DC /* Supporting Files */,
+				6ADB66681EDF7A0900BC05DC /* Father.h */,
+				6ADB66691EDF7A0900BC05DC /* Father.m */,
+				6ADB666B1EDF7A3000BC05DC /* Son.h */,
+				6ADB666C1EDF7A3000BC05DC /* Son.m */,
 			);
 			path = runtime_test01;
 			sourceTree = "<group>";
@@ -138,6 +165,15 @@
 				6ADB66591EDF247F00BC05DC /* Info.plist */,
 			);
 			path = runtime_test01UITests;
+			sourceTree = "<group>";
+		};
+		6ADB66B21EE014BA00BC05DC /* Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB66B31EE014F800BC05DC /* MyClass.h */,
+				6ADB66B41EE014F800BC05DC /* MyClass.m */,
+			);
+			name = Test1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADB66B51EE014F800BC05DC /* MyClass.m in Sources */,
 				6ADB663A1EDF247F00BC05DC /* ViewController.m in Sources */,
+				6ADB666D1EDF7A3000BC05DC /* Son.m in Sources */,
+				6A2807C81EE4FE6000D86587 /* EmptyClass.m in Sources */,
 				6ADB66371EDF247F00BC05DC /* AppDelegate.m in Sources */,
 				6ADB66341EDF247F00BC05DC /* main.m in Sources */,
+				6ADB666A1EDF7A0900BC05DC /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +547,7 @@
 				6ADB665E1EDF247F00BC05DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ADB665F1EDF247F00BC05DC /* Build configuration list for PBXNativeTarget "runtime_test01Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +556,7 @@
 				6ADB66611EDF247F00BC05DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ADB66621EDF247F00BC05DC /* Build configuration list for PBXNativeTarget "runtime_test01UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +565,7 @@
 				6ADB66641EDF247F00BC05DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
